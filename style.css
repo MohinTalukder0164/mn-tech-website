@@ -8,18 +8,30 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+.h1-tag {
+    color: crimson;
+}
+
 .orange-color {
     color: orange;
 }
 
-.top-banner {
+.flaxcible-container {
     display: flex;
+    margin-bottom: 100px;
+}
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
 }
 
 .dream-big {
-    display: flex;
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -31,7 +43,7 @@ h1 {
 }
 
 .img-1 {
-    height: 70%;
+    height: 80%;
     margin: 10px;
 }
 
@@ -47,5 +59,39 @@ h1 {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
 
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px rgb(56, 48, 3);
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#web-dev-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
+
+#insta-link {
+    text-decoration: none;
 }
