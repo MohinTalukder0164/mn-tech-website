@@ -12,10 +12,17 @@ h1 {
     color: orange;
 }
 
-section {
+.top-banner {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .half-width {
@@ -23,8 +30,14 @@ section {
     padding-left: 5%;
 }
 
-.half-width img {
-    height: 80%;
+.img-1 {
+    height: 70%;
+    margin: 10px;
+}
+
+.img-2 {
+    height: 100%;
+    margin: 10px;
 }
 
 .link-button {
